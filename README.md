@@ -2,11 +2,15 @@
 
 A structure for Flutter project.
 
-## Getting Started
+搭建自己的flutter常用架构与AndroidStructure一样可以拿来就可以使用的脚手架
 
-This project is a starting point for a Flutter application.
+## 项目相关
 
-A few resources to get you started if this is your first Flutter project:
+
+
+
+
+## About flutter
 
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)

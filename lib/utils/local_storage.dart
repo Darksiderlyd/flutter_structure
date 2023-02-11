@@ -2,12 +2,12 @@ import 'dart:convert';
 import 'package:shared_preferences/shared_preferences.dart';
 
 /// 本地存储-单例模式
-class LoacalStorage {
-  static LoacalStorage _instance = new LoacalStorage._();
-  factory LoacalStorage() => _instance;
+class LocalStorage {
+  static final LocalStorage _instance = LocalStorage._();
+  factory LocalStorage() => _instance;
   static late SharedPreferences _prefs;
 
-  LoacalStorage._();
+  LocalStorage._();
 
   static Future<void> init() async {
     _prefs = await SharedPreferences.getInstance();

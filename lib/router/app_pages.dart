@@ -14,11 +14,11 @@ class AppPages {
   static final routes = [
     GetPage(
       name: AppRoutes.Index,
-      page: () => IndexPage(),
+      page: () => const IndexPage(),
     ),
     GetPage(
       name: AppRoutes.Login,
-      page: () => LoginPage(),
+      page: () => const LoginPage(),
       binding: LoginBinding(),
     ),
     GetPage(
@@ -30,7 +30,7 @@ class AppPages {
 
   static final unknownRoute = GetPage(
     name: AppRoutes.NotFound,
-    page: () => NotfoundPage(),
+    page: () => const NotfoundPage(),
   );
 
   static final proxyRoute = GetPage(

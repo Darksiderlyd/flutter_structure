@@ -7,14 +7,17 @@ import 'package:flutter_structure/pages/Index/index_binding.dart';
 import 'package:flutter_structure/router/app_pages.dart';
 import 'package:get/get.dart';
 
-void main() => Global.init().then((e) => runApp(MyApp()));
+void main() => Global.init().then((e) => runApp(const MyApp()));
 
 class MyApp extends StatelessWidget {
+
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      title: 'Flutter With GetX',
-      home: IndexPage(),
+      title: 'Flutter With GetX Structure',
+      home: const IndexPage(),
       initialBinding: IndexBinding(),
       debugShowCheckedModeBanner: false,
       enableLog: true,
